@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 768px) {
+    .vx_l{display: none;}
+}
+@media screen and (min-width: 768px) {
+    .reveal-modal{display: none;}
+}
+.vx_l{
+	position: fixed;
+    right: 0;
+    top: 30%;
+    background: #fff;
+    z-index: 99;
+}

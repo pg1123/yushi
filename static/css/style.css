@@ -1,0 +1,300 @@
+
+html{
+	background:#e0e0e0;
+}
+html, body {
+    height: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, select, textarea, th, td, span {
+    margin: 0;
+    padding: 0;
+}
+body, p, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form {
+    list-style: none;
+    vertical-align: middle;
+    display: block;
+}
+em, i {
+    font-style: normal;
+}
+body, ul, p, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+a{ text-decoration:none; cursor:default}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+img{
+    border: none;
+}
+img.fullphoto{
+    width: 100%; max-width: 600px;
+}
+img.photo{
+    width: 80%; max-width: 600px;
+}
+.pinglun{
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    width:95%;
+    float:right;
+    background: #f8f8f8;
+}
+
+.yellowbg{
+    background: #ffff00; padding: 2px;
+}
+.zj_quan{
+	max-width:840px;/*页面最大宽度*/
+	min-width:320px;/*页面最小宽度*/
+	margin:0 auto;
+	background:#ffffff;
+	overflow:hidden;
+}
+
+#header{
+    width: auto; height: 48px; overflow: hidden; background: #262b42;
+}
+#header_bkico{
+    width: 37px; height: 28px; overflow: hidden; float: left; display: block;
+    background: url(http://gszb.q25b.cn/images/backico.png)/*tpa=http://image.foiendj.com/fopai/images/backico.png*/ no-repeat; background-size: 37px 28px;
+     margin-left: 8px; margin-top: 11px;
+}
+#header_title{
+    width: auto; height: 48px; overflow: hidden; float: left;
+    font: bold 18px/48px Arial,"宋体"; color: #cfd8e5; padding-left: 14px;
+}
+#header_rico{
+    width: auto; height: 48px; overflow: hidden; float: right;
+}
+#header_rico #lou{
+    width: 27px; height: 28px; overflow: hidden; float: left;
+    background: url(http://gszb.q25b.cn/images/louzhu.png)/*tpa=http://image.foiendj.com/fopai/images/louzhu.png*/ no-repeat; background-size: 27px auto;
+     margin-right: 16px; margin-top: 14px;
+}
+#header_rico #search{
+    width: 27px; height: 28px; overflow: hidden; float: left;
+    background: url(http://gszb.q25b.cn/images/search.png)/*tpa=http://image.foiendj.com/fopai/images/search.png*/ no-repeat;
+     margin-right: 12px; margin-top: 11px;
+}
+#header_rico #more{
+    width: 27px; height: 28px; overflow: hidden; float: left;
+    background: url(http://gszb.q25b.cn/images/more.png)/*tpa=http://image.foiendj.com/fopai/images/more.png*/ no-repeat;
+     margin-right: 8px; margin-top: 11px;
+}
+
+
+#bahead{
+    width: auto; height: 60px; overflow: hidden; border-bottom: 1px solid  #eee;
+}
+#baico{
+    width: 36px; height: 36px; overflow: hidden; float: left; margin-left: 12px; margin-top: 12px;
+}
+#baico img{
+    width: 36px; height: 36px;
+}
+#batxt{
+    width: auto; height: 36px; overflow: hidden; float: left; margin-left: 12px; margin-top: 12px;
+    font: bold 18px/36px Arial,"宋体";
+}
+#bainfo{
+    width: auto; height: 36px; overflow: hidden; float: left; margin-left: 16px; margin-top: 12px;
+    font: 14px/36px Arial,"宋体";
+}
+#bainfo span{
+    font: 14px/36px Arial; margin-left: 4px; color: #f25a23;
+}
+
+#content{
+    overflow: hidden; margin-top: 10px;
+}
+#cont_title{
+    width: auto; padding: 0 8px;
+    font: bold 16px/32px Arial,"宋体";
+}
+.floor{
+    overflow: hidden; padding-top: 10px; border-bottom: 1px solid  #eee;
+}
+.floor.hui{
+
+}
+
+.floor_hd{
+    overflow: hidden; padding: 0 8px;
+}
+.user_img{
+    width: 36px; height: 36px; overflow: hidden; border: 1px solid #eee; float: left;
+}
+.user_img img{
+    width: 36px; height: 36px;
+}
+.user_name{
+    width: auto; height: 20px; overflow: hidden; padding-left: 6px;
+    font: 14px/20px Arial,"宋体"; color: #3361a7;
+}
+.levelico{
+    width: 20px; height: 20px; overflow: hidden; /*background: url(../images/level.png) center center no-repeat;*/ margin-left: 4px;
+    background-size: 100% 100%; text-align: center; color: #FFF; font-size: 10px; display: inline-block; vertical-align: middle;
+}
+.user_lou{
+    background: #3381e3; color: #FFF; font-size: 12px; padding: 2px; border-radius: 3px; margin-left: 4px;
+}
+.user_info{
+    width: auto; height: 14px; overflow: hidden; padding-left: 6px; margin-top: 2px;
+    font: 12px/14px Arial,"宋体"; color: #c6c6c6;
+}
+.floor_cc{
+    overflow: hidden; font: 16px/22px Arial,"宋体"; color: #333; margin-top: 8px; padding: 0 15px;
+}
+.floor_cc.cd{
+    padding-left: 48px;
+}
+.floor_cc p{
+    font: 16px/22px Arial,"宋体"; margin: 10px 0;
+}
+.floor_cc p.fromu{
+    font: 16px/22px Arial,"宋体"; margin: 10px 0; color: #999;
+}
+.floor_cc p.after{
+    text-indent: 28px;
+}
+.floor_cc span{
+    font: 16px/22px Arial,"宋体";
+}
+.red{
+    color: #FF0000;
+}
+.floor_cc span.blue{
+    color: #3361a7;
+}
+.gooder{
+    width: auto; height: 26px; overflow: hidden; padding-left: 22px; margin-left: 8px;
+    font: 14px/26px Arial,"宋体"; color: #3361a7; margin-bottom: 20px;
+    /*background: url(../images/good.png) no-repeat; background-size: 20px 20px;*/
+}
+
+.floor_cd{
+    overflow: hidden; font: 14px/22px Arial,"宋体"; color: #333; padding: 0 15px;
+}
+.floor_cd p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 14px/22px Arial,"宋体"; margin: 10px 0;
+}
+.floor_cd p.fromu{
+    font: 14px/22px Arial,"宋体"; margin: 8px 0; color: #999;
+}
+.floor_cd p.after{
+    text-indent: 28px;
+}
+.floor_cd span{
+    font: 14px/22px Arial,"宋体";
+}
+.floor_cd span.red{
+    color: #FF0000;
+}
+.floor_cd span.blue{
+    color: #3361a7;
+}
+.floor_cd span.times{
+    color: #c6c6c6; font-size: 14px; margin-left: 8px;
+}
+
+
+
+
+.page {
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #F3F3F3;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+}
+.page .fl_span{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "黑体";
+}
+
+.page .fr_span{
+    float: right;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "黑体";
+}
+
+.page .input_radius {
+    height: 28px;
+    line-height: 28px;
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+    background-color: #ebebeb;
+    position: relative;
+    top: 3px;
+}
+
+.page_txt {
+    border: none;
+    width: 90%;
+    text-align: center;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    position: relative;
+    top: 3px;
+}
+
+.page .btn_radius {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background: #ebebeb;
+    position: relative;
+    top: 3px;
+    font-family: "黑体";
+
+}
+
+.page .btn_radius a{
+    color: #666;
+}
+
+.footer{
+    overflow: hidden; height: auto; margin: 12px 0 20px 0;
+}
+.footline{
+    width: auto; height: 30px; overflow: hidden; text-align: center; font-size: 12px; line-height: 30px; color: #666;
+}
+.footline span{
+    margin: 0 12px;
+}
